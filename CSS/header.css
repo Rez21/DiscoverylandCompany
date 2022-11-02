@@ -1,0 +1,66 @@
+@import url(//db.onlinewebfonts.com/c/e20953cc1e4a860f83954b5da07b4243?family=GT+Sectra+Book);
+@import url(//db.onlinewebfonts.com/c/a9db6cd9116ff56da3875b35444f0c45?family=GothamBook);
+@import url(//db.onlinewebfonts.com/c/bbb0e26c14f79333dad33f3ed785580c?family=MessinaSansMonoWeb);
+
+.part-one {
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: auto;
+    z-index: auto;
+}
+
+.logo :any-link{
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    height: 100px;
+    width: 40%;
+    padding: auto;
+    z-index: 1000;
+}
+
+.head-nav-menu {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    width: 40%; 
+    z-index: 1000; 
+}
+
+.head-nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 150px;
+}
+
+@media screen and (max-width: 600px)  {
+    .head-nav-menu {
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-end;
+    }   
+}
+
+.head-nav-item :any-link {
+    font-family: 'GothamBook';
+    font-size: .95em;
+    text-decoration: none;
+    color: white;
+}
+
+.head-nav-item :hover {
+    text-decoration: underline;
+    text-underline-position: inherit;
+}
+
+.head-nav-item-menu-button {
+    height: 2px;
+    width: 25px;
+}
+
+

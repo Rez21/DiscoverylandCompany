@@ -1,0 +1,62 @@
+@import url(//db.onlinewebfonts.com/c/a9db6cd9116ff56da3875b35444f0c45?family=GothamBook);
+
+body{
+    background-color: black;
+}
+
+.our-worlds {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+#img {
+    width: 350px ;
+    height: 190px;
+}
+
+#our-world-image-head {
+    margin-bottom: 2px;
+    color: white;
+    font-family: 'GothamBook';
+}
+
+#our-world-image-p {
+    margin-top: 2px;
+    color: grey;
+    font-family: 'GothamBook';
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    top: 15%;
+    border: 2px;
+    position: relative;
+}
+#Discoverylogo{
+    width: 50%;
+    height: 70%;
+
+}
+
+header{
+    display: block;
+}
+
+
+.part-one {
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: auto;
+    z-index: auto;
+}
+.ourworld-box {
+    position: relative;
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+}

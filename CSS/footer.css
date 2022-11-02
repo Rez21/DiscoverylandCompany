@@ -1,0 +1,74 @@
+@import url(//db.onlinewebfonts.com/c/e20953cc1e4a860f83954b5da07b4243?family=GT+Sectra+Book);
+@import url(//db.onlinewebfonts.com/c/a9db6cd9116ff56da3875b35444f0c45?family=GothamBook);
+@import url(//db.onlinewebfonts.com/c/bbb0e26c14f79333dad33f3ed785580c?family=MessinaSansMonoWeb);
+
+
+
+.part6 {
+    background-color: #161f1e;
+    width: auto;
+    height: auto;
+}
+.footers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%
+}
+
+.footer-part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+
+
+@media screen and (max-width: 600px)  {
+    .footers {
+        flex-direction: column;
+        flex-flow: column-reverse;
+        align-items: center;
+    }   
+}
+
+@media screen and (max-width: 600px)  {
+    .footer-part2 {
+        flex-direction: column;
+        align-items: center;
+    }   
+}
+
+.footer-context {
+    padding-top: 100%;
+    color: white;
+}
+
+.foot-nav-item :any-link {
+    text-decoration:none;
+    color: white;
+}
+
+.foot-nav-item-three :any-link {
+    text-decoration:none;
+    color: white;
+    text-decoration: underline;
+}
+
+
+.foot-nav-item:hover {
+    text-decoration: underline;
+}
+
+.foot-nav-item-two :any-link  {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-nav-item-two :hover {
+    text-decoration:underline;
+}
+
+.foot-nav-item1 {
+    color: white;
+}

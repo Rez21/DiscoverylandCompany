@@ -1,0 +1,243 @@
+@import url(//db.onlinewebfonts.com/c/e20953cc1e4a860f83954b5da07b4243?family=GT+Sectra+Book);
+@import url(//db.onlinewebfonts.com/c/a9db6cd9116ff56da3875b35444f0c45?family=GothamBook);
+@import url(//db.onlinewebfonts.com/c/bbb0e26c14f79333dad33f3ed785580c?family=MessinaSansMonoWeb);
+.experience-part-three {
+    position: relative;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+}
+
+.exp-image {
+    position: relative;
+}
+
+.exp-text {
+    box-sizing: border-box;
+    background-color: white;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    bottom: 20%;
+    left: 60%;
+    padding-left: 3%;
+    padding-top: 5%;
+}
+
+.exp-head {
+    font-family: 'GT Sectra Book';
+    font-size: 2em;
+    font-weight: 1;
+}
+
+.exp-para {
+    font-family: 'GothamBook';
+    line-height: 1.5em;
+    color: grey;
+    padding-bottom: 7%;
+}
+
+.part1 video {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 1.0;
+}
+
+.video1-title {
+    position: absolute;
+    font-family: 'GT Sectra Book';
+    left: 25%;
+    top: 40%;
+    color: white;
+    font-size: 5em;
+    font-weight: 1.5;
+    line-height: .8;
+}
+
+.gallery-title {
+    position: absolute;
+    left: 15%;
+    top: 42%;
+    color:white;
+    line-height: .9;
+}
+
+.gallery-images {
+    display: flex;
+}
+
+#gallery-head {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 4%;
+}
+.mag-part-one {
+    position: relative;
+}
+
+.fon-parttwo{
+    padding: 5%;
+    text-align: center;
+    font-family: 'GT Sectra Book';
+    font-size: 2.7em;
+    font-weight: 1;
+    line-height: 1.4em;
+}
+
+.fon-partthree {
+    padding: 0 13% 5% 13%;
+    display: flex;
+}
+
+@media screen and (max-width: 600px)  {
+    .fon-partthree {
+        flex-direction: column;
+    }   
+}
+.fon-part-3-two {
+    padding-left: 12%;
+    padding-top: 8%;
+    text-align: left;
+}
+
+.fon-head {
+    font-family: 'GT Sectra Book';
+    font-size: 2.5em;
+    font-weight: 1;
+    padding-bottom: 2%;
+}
+
+.fon-para {
+    font-family: 'GothamBook';
+    color: gray;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding-bottom: 2%;
+}
+
+.fon-button {
+    padding-top: 5%;
+}
+
+.button-fon {
+    width: 200px;
+    height: 70px;
+    font-size: .9em;
+    background-color: gainsboro;
+    border: 1px solid gray;
+}
+
+#dlc-img {
+    padding-bottom: 5%;
+}
+.comp-part-three {
+    padding: 0 10% 5% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.comp-part-3-one {
+    padding-top: 8%;
+}
+.fon-parttwo{
+    padding: 5%;
+    text-align: center;
+    font-family: gt-sectra;
+    font-size: calc(21.33333px + 1.13333vw);
+    font-weight: 1;
+    line-height: 1em;
+}
+
+.fon-partthree {
+    padding: 0 13% 5% 13%;
+    display: flex;
+}
+
+@media screen and (max-width: 600px)  {
+    .fon-partthree {
+        flex-direction: column;
+    }   
+}
+.fon-part-3-two {
+    padding-left: 12%;
+    padding-top: 8%;
+    text-align: left;
+}
+
+.fon-head {
+    font-family: 'GT Sectra Book';
+    font-size: 2.5em;
+    font-weight: 1;
+    padding-bottom: 2%;
+}
+
+.fon-para {
+    font-family: 'GothamBook';
+    color: gray;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding-bottom: 2%;
+}
+
+.fon-button {
+    padding-top: 5%;
+}
+
+.button-fon {
+    width: 200px;
+    height: 70px;
+    font-size: .9em;
+    background-color: gainsboro;
+    border: 1px solid gray;
+}
+button {
+    width: 180px;
+    height: 75px;
+    background-color: white;
+    font-size: 1.2em;
+    border: 1px solid gray;
+}
+
+.six-title{
+    font-family: 'GothamBook'; 
+    font-size: 3em;
+    line-height: 2em;
+    font-weight: 1;
+}
+.comp-part-six {
+    position: relative;
+}
+
+.part-six-text {
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    left: 42%;
+}
+.part-six-text :any-link {
+    text-decoration: none;
+    color: white;
+}
+
+.gallery-title {
+    position: absolute;
+    left: 15%;
+    top: 42%;
+    color:white;
+    line-height: .9;
+}
+
+.gallery-images {
+    display: flex;
+}
+
+#gallery-head {
+    text-align: center;
+    
+    color: white;
+    font-family: 'GothamBook';
+}
